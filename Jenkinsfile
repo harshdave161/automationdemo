@@ -12,6 +12,6 @@
         
     }
      sh 'pm2 list'
-     sh 'ng serve --host 0.0.0.0 --port 4201'
+    //  sh 'ng serve --host 0.0.0.0 --port 4201'
 
  }
