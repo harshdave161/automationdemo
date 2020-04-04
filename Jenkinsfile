@@ -11,10 +11,7 @@
         }
         
     }
-     echo 'hello'
-     sh 'dir'
-     echo 'dir aagya'
-     sh 'pwd'
-     echo 'yeah mire current dir hai'
+     sh 'pm2 list'
+     sh 'ng serve --host 0.0.0.0 --port 4201'
 
  }
