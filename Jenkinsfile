@@ -11,7 +11,11 @@
         }
         
     }
-     sh 'pm2 list'
-    //  sh 'ng serve --host 0.0.0.0 --port 4201'
+   sh 'pwd'
+    echo 'yeah deko'
+    sh 'pm2 list'
+    sh 'pm2 delete 1'
+    sh 'pm2 list'
+    sh 'pm2 start "ng serve --host 0.0.0.0" --port 4201'
 
  }
